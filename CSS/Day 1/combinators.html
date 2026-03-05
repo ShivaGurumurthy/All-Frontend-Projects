@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Calls in all the descendtants */
+        /* div p{
+            color:red;
+        } */
+        
+        /* Calls in only the direct child! */
+        div p{
+            color:aqua;
+        }
+        
+        section p{
+            color:blue;
+        }
+        main p{
+            color:brown;white-space: nowrap;
+        }
+        article p{
+            color:bisque;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <article>
+            <main>I'm main inside an article!!</main>
+            <p>I'm a paragraph inside an article!!</p>
+            <section>I'm a section inside an article!!</section>
+        </article>
+        <section>
+            <article>I'm an article inside a section!</article>
+            <p>I'm a paragraph inside a section!</p>
+            <span>I'm a span inside a section! </span>
+        </section>
+        <p>Hello, World! (From the direct child!)</p>  
+        This is a direct child!--
+    </div>-->
+
+    <div>
+        <p>I'm inside a  DIV!</p>
+    </div>
+    <p>I'm out of a DIV!</p>
+    <section>
+        <p>Inside a SECTION!</p>
+        <main>
+            <article>
+                <p>Inside an ARTICLE</p>
+            </article>
+            <p>Inside a MAIN</p>
+        </main>
+    </section>
+</body>
+</html>

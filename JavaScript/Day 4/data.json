@@ -1,0 +1,11 @@
+{
+    "name": "John",
+    "age": 30,
+    "isMarried":false,
+    "phoneNumber":[1234567890,9876543210],
+    "wife":null,
+    "address":{
+        "city":"New York",
+        "state":"United States of America"
+    }
+}

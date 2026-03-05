@@ -1,0 +1,45 @@
+DAY - 3 OF JAVASCRIPT
+
+Topics taught -- Strings, Arrays
+String -- Refer the functions from the PPT Shared
+
+Arrays:
+Arrays are data structures, which are used to hold collection data at contiguous memory locations.
+There are 2 types of Arrays in JavaScript -- Homogeneous and Heterogeneous
+
+Homogeneous -- Regular arrays in Java, Python..
+Heterogeneous -- Mix of any number of elements, any data type of elements, nested array elements (NO MATTER WHAT (EVEN FUNCTIONS TOO!))
+Example:
+    let arr3 = [1,2,3,"Hello",true,null,undefined,"Morning!",[1,2,3,4,["Hello, World!","Good Morning!",[()=>"Hello,Worlddd"]]]]
+    console.log(arr3)
+    console.log(arr3[4])
+    console.log(arr3[8][4])
+    console.log(arr3[8][4][2])
+    console.log(arr3[8][4][2][0]())
+
+Updation on Arrays!
+Syntax -- arrName[indexToUpdate] = New Value
+
+Even if the array index to be updated is way ahead of the actual size of the array, then the array element for the rest of the elements, will be marked as "empty" (Thanks "Dynamically Typed JavaScript!")
+
+
+Deletion on Arrays!
+Syntax -- "delete" arrName[indextoDelete]
+
+This will perform the delete operation and keep the value as "EMPTY" inside the array when consoled!
+
+
+
+ARRAY METHODS
+
+i. push() -- Used to push or input an element into an existing array
+ii. pop() -- Used to remove or pop the last element present in an array
+iii. unshift() -- Same as push(), but does the work in the front of the array and not the back
+iv. shift() -- Same as pop(), but does it at the front.
+v. slice() -- Create a new SUBARRAY out of an EXISTING ARRAY -- arrName.slice(st.Index, end.Index)
+vi. reverse() -- YOU KNOW IT, WE KNOW IT!
+vii. includes() -- Check if an element is present in the array or not... (Returns bool!)
+viii. Array.isArray(arrName) -- Checks if a variable is storing an array or not since the "typeof" operator, will return "object" for anything and everything!
+ix. join -- Array to String.
+x. splice -- To modify an element, we use the splice method.
+
